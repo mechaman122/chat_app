@@ -1,0 +1,22 @@
+{
+  "name": "chat_app",
+  "version": "0.0.1",
+  "description": "A chat app for Uni Assignment",
+  "main": "./index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tail": "NODE_ENV=production tailwind build ./src/tailwind.css -o ./src/styles.css"
+  },
+  "author": "Han Phong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jquery": "^3.6.1",
+    "nodemon": "^2.0.20",
+    "popper.js": "^1.16.1",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.3"
+  }
+}
